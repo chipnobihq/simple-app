@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for simple-app-tgf-pa on 2026-03-01T08:34:03Z
+# fly.toml app configuration file generated for simple-app-gsg8ya on 2026-03-01T08:45:57Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'simple-app-tgf-pa'
-primary_region = 'iad'
+app = 'simple-app-gsg8ya'
+primary_region = 'ams'
 
 [build]
 
@@ -20,4 +20,4 @@ primary_region = 'iad'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
+  memory_mb = 256
